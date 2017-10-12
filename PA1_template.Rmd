@@ -1,6 +1,7 @@
 ---
 title: "PA1_template"
 output: html_document
+keep_md: true
 ---
   
 ###Introduction
@@ -152,3 +153,4 @@ plot(avgWeek$interval, avgWeek$avgsteps.weekend, type='l', main ="Weekend",
 plot(avgWeek$interval, avgWeek$avgsteps.weekday, main ="Weekday", 
      xlab="Interval", ylab="Number of Steps", type='l')
 ```
+
